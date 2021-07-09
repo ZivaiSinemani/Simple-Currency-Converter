@@ -9,7 +9,7 @@ def convert():
     rate=rates.get_rate(currency1, currency2)
     text.config(text=rate)
     
-
+ #This is for the GUI.
 screen=Tk()
 screen.title("Currency Converter")
 screen.config(bg="lightblue")
